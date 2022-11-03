@@ -1,0 +1,14 @@
+name: SendToConsole
+main: nl.chimpgamer.sendtoconsole.SendToConsole
+version: ${version} # This is a variable defined in the build.gradle.kts
+
+libraries:
+  - org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+
+commands:
+  sendtoconsole:
+    description: Send a message to console
+    aliases:
+      - stc
+    permission: sendtoconsole.command.sendtoconsole
+    usage: /sendtoconsole <message>
