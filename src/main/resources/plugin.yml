@@ -3,7 +3,7 @@ main: nl.chimpgamer.sendtoconsole.SendToConsole
 version: ${version} # This is a variable defined in the build.gradle.kts
 api-version: '1.13'
 libraries:
-  - org.jetbrains.kotlin:kotlin-stdlib:1.7.20
+  - org.jetbrains.kotlin:kotlin-stdlib:1.8.10
 
 commands:
   sendtoconsole:

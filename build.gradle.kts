@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm") version "1.8.10"
 }
 
 group = "nl.chimpgamer.sendtoconsole"
@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation(kotlin("test"))
+    implementation(kotlin("stdlib"))
 
     compileOnly("io.papermc.paper:paper-api:1.19.2-R0.1-SNAPSHOT")
 }
